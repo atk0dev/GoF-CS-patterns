@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility-Exception", "Chain of Responsibility-Exception\Chain of Responsibility-Exception.csproj", "{F0FF39FD-D2F9-4716-9413-751E5CC366C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibility", "Chain of Responsibility", "{EDDD16C1-89A1-4D47-BB4F-DE01EE78A8A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{8327C56F-635A-4AF7-9039-7FC6419B8B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-foreach", "Facade-foreach\Facade-foreach.csproj", "{104461CA-7A92-474F-8170-DEA0D3043082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-Component", "Facade-Component\Facade-Component.csproj", "{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0FF39FD-D2F9-4716-9413-751E5CC366C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FF39FD-D2F9-4716-9413-751E5CC366C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FF39FD-D2F9-4716-9413-751E5CC366C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FF39FD-D2F9-4716-9413-751E5CC366C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104461CA-7A92-474F-8170-DEA0D3043082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104461CA-7A92-474F-8170-DEA0D3043082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104461CA-7A92-474F-8170-DEA0D3043082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104461CA-7A92-474F-8170-DEA0D3043082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0FF39FD-D2F9-4716-9413-751E5CC366C5} = {EDDD16C1-89A1-4D47-BB4F-DE01EE78A8A4}
+		{104461CA-7A92-474F-8170-DEA0D3043082} = {8327C56F-635A-4AF7-9039-7FC6419B8B5F}
+		{D9B6B5E7-BF28-4FEE-B362-4F57FEFD08BC} = {8327C56F-635A-4AF7-9039-7FC6419B8B5F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Observer_StockTicker.StockGenerator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="Manual" Top="200" Left="100"
+        Title="Stock Generator" Height="250" Width="355">
+    <Grid Background="{StaticResource ApplicationBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--<TextBlock x:Name="TextBlock1" Grid.Row="0" Grid.Column="1"
+                   Style="{StaticResource TextBlockStyle}" />-->
+        <ComboBox x:Name="StockIdCombo" Grid.Row="0" Grid.Column="1"
+                  Style="{StaticResource ComboBoxStyle}"/>
+        
+        <!--<TextBlock x:Name="TextBlock2" Grid.Row="1" Grid.Column="1"
+                   Style="{StaticResource TextBlockStyle}" />-->
+        <ListBox x:Name="StockValueList" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1"
+                 Style="{StaticResource ListBoxStyle}"/>
+        
+        <Button x:Name="GenerateOneButton" Grid.RowSpan="2"
+                Style="{StaticResource GoButtonStyle}"
+                Content="Generate One" Click="GenerateOneButton_Click"/>
+        <Button x:Name="GenerateOneHundredButton" Grid.Row="2"
+                Style="{StaticResource GoButtonStyle}"
+                Content="Generate 100" Click="GenerateOneHundredButton_Click"/>
+    </Grid>
+</Window>

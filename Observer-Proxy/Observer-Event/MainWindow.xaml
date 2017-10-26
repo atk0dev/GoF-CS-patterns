@@ -1,0 +1,21 @@
+﻿<Window x:Class="Observer_Event.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="Observer" Height="175" Width="255">
+    <Grid Background="{StaticResource ClientBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TextBlock1" Grid.Row="0"
+                   Style="{StaticResource TextBlockStyle}" />
+        <TextBlock x:Name="TextBlock2" Grid.Row="1"
+                   Style="{StaticResource TextBlockStyle}" />
+        <Button x:Name="ClickMeButton" Grid.Row="2"
+                Style="{StaticResource ButtonStyle}"
+                Content="Click Me!"/>
+    </Grid>
+</Window>
